@@ -27,7 +27,7 @@ export default {
       messages: [],
       newMessage: null,
       username: null,
-      socket: io("http://localhost:3000"),
+      socket: io("https://chat-api-vonix.herokuapp.com/"),
     };
   },
   methods: {
